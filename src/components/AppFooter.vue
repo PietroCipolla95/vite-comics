@@ -129,17 +129,20 @@ export default {
     </section>
     <!-- bottom footer -->
     <section class="bottom_footer">
-        <div class="row my_container py-5 align-items-center">
+        <div class="row my_container py-5 align-items-center justify-content-between">
             <!-- col with sign up button -->
             <div class="col-6">
                 <button type="button" class="btn my_border text-light P-2">SIGN UP NOW</button>
             </div>
             <!-- col with follow us and medias -->
-            <div class="col-6">
+            <div class="col-4 d-flex align-items-center justify-content-between">
                 <p class="follow">FOLLOW US</p>
                 <!-- wrapper with medias -->
-                <div class="media_wrapper">
-
+                <div class="media_wrapper text-dark pb-3">
+                    <span>F</span>
+                    <span>F</span>
+                    <span>F</span>
+                    <span>F</span>
                 </div>
             </div>
         </div>
@@ -195,6 +198,18 @@ export default {
     .my_border {
         border-radius: 0;
         border: 3px solid $dc-primary
+    }
+
+    .media_wrapper {
+
+        span {
+            border: 1px solid rgb(90, 88, 88);
+            background-color: rgb(90, 88, 88);
+            margin-left: .5rem;
+            border-radius: 50%;
+            padding: .5rem 1rem;
+        }
+
     }
 
 }
