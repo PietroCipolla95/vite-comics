@@ -7,7 +7,7 @@ export default {
 </script>
 <template>
     <section class="py-5">
-        <div class="wrapper d-flex my_container justify-content-between align-items-center">
+        <div class="wrapper d-flex tools_container justify-content-between align-items-center">
             <div class="col-2">
                 <a href="#">
                     <img src="../assets/img/buy-comics-digital-comics.png" alt="">
@@ -46,6 +46,11 @@ export default {
 
 <style lang="scss" scoped>
 @use '../assets/scss/partials/variables.scss' as *;
+
+.tools_container {
+    max-width: 1100px;
+    margin: auto;
+}
 
 section {
 
