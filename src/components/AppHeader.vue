@@ -11,7 +11,7 @@ export default {
 
 <template>
     <header>
-        <nav class="navbar navbar-expand navbar-light bg-body d-flex justify-content-evenly p-3">
+        <nav class="navbar navbar-expand navbar-light bg-body d-flex justify-content-between p-3 my_container">
             <div>
                 <img src="../assets/img/dc-logo.png" alt="" srcset="">
             </div>
