@@ -5,8 +5,9 @@ export default {
 </script>
 
 <template>
+    <!-- main footer -->
     <section class="main_footer">
-        <div class="row my_container">
+        <div class="row my_container flex-nowrap">
             <!-- columns on left with all links -->
             <div class="col-5 py-4">
                 <div class="row py-4">
@@ -122,6 +123,25 @@ export default {
                     </div>
                 </div>
             </div>
+            <div class=".col-7 logo d-flex flex-shrink-1 align-self-center justify-content-center">
+            </div>
+        </div>
+    </section>
+    <!-- bottom footer -->
+    <section class="bottom_footer">
+        <div class="row my_container py-5 align-items-center">
+            <!-- col with sign up button -->
+            <div class="col-6">
+                <button type="button" class="btn my_border text-light P-2">SIGN UP NOW</button>
+            </div>
+            <!-- col with follow us and medias -->
+            <div class="col-6">
+                <p class="follow">FOLLOW US</p>
+                <!-- wrapper with medias -->
+                <div class="media_wrapper">
+
+                </div>
+            </div>
         </div>
     </section>
 </template>
@@ -132,6 +152,7 @@ export default {
 @use '../assets/scss/partials/variables.scss' as *;
 
 .main_footer {
+    height: 369px;
     background-image: url(../assets/img/footer-bg.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -150,6 +171,31 @@ export default {
         }
     }
 
+    .logo {
+        height: 369px;
+        background-image: url(../assets/img/dc-logo-bg.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: local;
+        background-position: center;
+    }
+
+}
+
+.bottom_footer {
+
+    background-color: rgb(48, 45, 45);
+
+    .follow {
+        color: $dc-primary;
+        font-size: 1.5rem;
+        font-weight: 700;
+    }
+
+    .my_border {
+        border-radius: 0;
+        border: 3px solid $dc-primary
+    }
 
 }
 </style>
