@@ -133,6 +133,8 @@ export default {
 
 .main_footer {
     background-image: url(../assets/img/footer-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
 
     h6 {
         color: white;
