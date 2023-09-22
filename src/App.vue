@@ -1,7 +1,8 @@
 <script>
 
 import AppHeader from './components/AppHeader.vue';
-import AppMain from './components/AppMain.vue'
+import AppMain from './components/AppMain.vue';
+import AppTools from './components/AppTools.vue';
 
 export default {
 
@@ -14,7 +15,7 @@ export default {
   components: {
     AppHeader,
     AppMain,
-
+    AppTools,
   }
 
 }
@@ -24,6 +25,7 @@ export default {
 <template>
   <AppHeader></AppHeader>
   <AppMain></AppMain>
+  <AppTools></AppTools>
 </template>
 
 <style scoped></style>

@@ -3,6 +3,7 @@ export default {
     name: 'AppMain',
 }
 </script>
+
 <template>
     <main>
         <div class="my_container py-5">
