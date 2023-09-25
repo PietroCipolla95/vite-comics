@@ -140,10 +140,21 @@ export default {
                     <p class="follow">FOLLOW US</p>
                     <!-- wrapper with medias -->
                     <div class="media_wrapper text-dark pb-3">
-                        <span>F</span>
-                        <span>F</span>
-                        <span>F</span>
-                        <span>F</span>
+                        <a href="#">
+                            <img src="../assets/img/footer-facebook.png" alt="" srcset="">
+                        </a>
+                        <a href="#">
+                            <img src="../assets/img/footer-twitter.png" alt="" srcset="">
+                        </a>
+                        <a href="#">
+                            <img src="../assets/img/footer-youtube.png" alt="">
+                        </a>
+                        <a href="#">
+                            <img src="../assets/img/footer-pinterest.png" alt="" srcset="">
+                        </a>
+                        <a href="#">
+                            <img src="../assets/img/footer-periscope.png" alt="">
+                        </a>
                     </div>
                 </div>
             </div>
@@ -204,12 +215,8 @@ export default {
 
     .media_wrapper {
 
-        span {
-            border: 1px solid rgb(90, 88, 88);
-            background-color: rgb(90, 88, 88);
-            margin-left: .5rem;
-            border-radius: 50%;
-            padding: .5rem 1rem;
+        img {
+            padding-left: .5rem;
         }
 
     }
