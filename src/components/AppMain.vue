@@ -35,16 +35,16 @@ export default {
             <div class="row py-5 my_container">
                 <!-- current series hover -->
                 <div class="current_series position-relative">
-                    <div class="btn bg-dc my_btn_abs rounded-0 px-4 text-light">
+                    <div class="bg-dc px-3 py-2 my_btn_abs rounded-0 px-4 text-light">
                         <h5 class="fs-4">
                             CURRENT SERIES
                         </h5>
                     </div>
                 </div>
 
-                <div class="col-2" v-for="comic in comics">
+                <div class="col-2 mb-3" v-for="comic in comics">
 
-                    <AppComicsCard :thumb="comic.thumb" :series="comic.series"></AppComicsCard>
+                    <AppComicsCard :thumb="comic.thumb" :series="comic.series.toUpperCase()"></AppComicsCard>
 
                 </div>
             </div>
