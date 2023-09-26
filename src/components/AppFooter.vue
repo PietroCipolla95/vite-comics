@@ -124,6 +124,7 @@ export default {
                         </div>
                     </div>
                 </div>
+                <!-- right side with logo bg -->
                 <div class=".col-7 logo d-flex flex-shrink-1 align-self-center justify-content-center">
                 </div>
             </div>
