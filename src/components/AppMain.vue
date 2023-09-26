@@ -49,7 +49,7 @@ export default {
                 </div>
             </div>
 
-            <div class="col-2 d-flex m-auto pb-3">
+            <div class="pb-3 d-flex justify-content-center">
                 <button class="btn bg-dc rounded-0 px-4 py-2 text-light fw-bolder">
                     LOAD MORE
                 </button>
